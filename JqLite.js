@@ -23,7 +23,7 @@ function JqLite(attr){
 //获取选择器的dom节点
 
 JqLite.prototype.query=function(attr){	
-	var el=document.querySelectorAll(attr);   /*id   classs*/
+	var el=document.querySelectorAll(attr);   /*id   class*/
 	this.elements=el;
 }
 
